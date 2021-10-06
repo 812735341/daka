@@ -23,22 +23,22 @@ users:
   # 这里默认仅适配宜宾学院，其他学校自行修改
   - user:
       # 任务类型（收集：0、签到：1、查寝：2、教师工作日志：3）
-      type: 3
+      type: 1
       #school 学校全称
-      schoolName: 宜宾学院
+      schoolName: 西南大学
       #username 学号或者工号
-      username: ''
+      username: '112020329232058'
       #password 密码
-      password: ''
+      password: '200294.'
       # 地址信息
-      address: '宜宾市（自己改）'
+      address: '中国重庆市北碚区文渊路'
       #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码，当sendType为2时代表接收消息的pushplus token
-      sendKey: ''
+      sendKey: '562036692@qq.com'
       # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
       #lon 经度
-      lon: 104.616858
+      lon: 106.427507
       #lat 纬度
-      lat: 28.793022
+      lat: 29.828981
       #检查标题与否
       checkTitle: 1
       #代理ip信息（格式为：网络协议://ip地址:端口   如：http://127.0.0.1:7890）
@@ -46,26 +46,8 @@ users:
       # 表单信息
       forms:
         - form:
-            title: 2.是否在校上班或居住
-            value: 是
-        - form:
-            title: 3.上午体温
-            value: 36.2
-        - form:
-            title: 4.下午体温
-            value: 36.4
-        - form:
-            title: 5.晚上体温
-            value: 36.1
-        - form:
-            title: 6.身体状况
-            value: 身体健康
-        - form:
-            title: 7.是否请假
-            value: 否
-        - form:
-            title: 8.今日是否返回宜宾市
-            value: 否
+            title: 研究生体温检测-晚上 （必填）
+            value: 正常，<37.2℃
   # 第二个用户配置
   # 以下配置为信息收集
   # 这里默认仅适配宜宾学院，其他学校自行修改
